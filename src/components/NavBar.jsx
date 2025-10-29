@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navlinks} from "../constants/index.js";
+import {navLinks} from "../constants/index.js";
 
 const NavBar = () => {
     return (
@@ -11,7 +11,7 @@ const NavBar = () => {
                     />
 
                 <ul>
-                    {Navlinks.map(({label}) => (
+                    {navLinks.map(({label}) => (
                         <li key={label}>
                             <a href={label}>{label}</a>
                         </li>
